@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordinateTransform", "CoordinateTransform\CoordinateTransform.csproj", "{01B29D11-00E0-4B37-8C69-48B8E7815FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{CABB0A1B-8596-47E3-9338-E7B79056222D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01B29D11-00E0-4B37-8C69-48B8E7815FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B29D11-00E0-4B37-8C69-48B8E7815FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B29D11-00E0-4B37-8C69-48B8E7815FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B29D11-00E0-4B37-8C69-48B8E7815FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABB0A1B-8596-47E3-9338-E7B79056222D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABB0A1B-8596-47E3-9338-E7B79056222D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABB0A1B-8596-47E3-9338-E7B79056222D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABB0A1B-8596-47E3-9338-E7B79056222D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
