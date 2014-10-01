@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Text;
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Math3d;
 
-namespace UnitTestProject
+namespace TestProject1
 {
     [TestClass]
     public class UnitTest1
@@ -52,15 +55,15 @@ namespace UnitTestProject
                 new  Point{ x = +1, y = -1, z = 1 },
             };
 
-			CoordinateTransform tr = new CoordinateTransform();
+            CoordinateTransform tr = new CoordinateTransform();
             tr.initialize(expects, srcs);
 
             Point src = new Point { x = +1, y = +1, z = 0 };
-            Point expected = new Point { x = +1, y = +1, z = 1};
+            Point expected = new Point { x = +1, y = +1, z = 1 };
 
             Point dest = tr.convert(src);
 
-			double err = 0.000001;
+            double err = 0.000001;
             Assert.IsTrue((dest.x - err) < expected.x, "the value on the x axis is too small");
             Assert.IsTrue((dest.y - err) < expected.y, "the value on the y axis is too small");
             Assert.IsTrue((dest.z - err) < expected.z, "the value on the z axis is too small");
@@ -83,7 +86,7 @@ namespace UnitTestProject
                 new  Point{ x = 0, y = -1, z = 0 },
             };
 
-			CoordinateTransform tr = new CoordinateTransform();
+            CoordinateTransform tr = new CoordinateTransform();
             tr.initialize(expects, srcs);
 
             Point src = new Point { x = 0, y = -1, z = 0 };
@@ -91,7 +94,7 @@ namespace UnitTestProject
 
             Point dest = tr.convert(src);
 
-			double err = 0.000001;
+            double err = 0.000001;
             Assert.IsTrue((dest.x - err) < expected.x, "the value on the x axis is too small");
             Assert.IsTrue((dest.y - err) < expected.y, "the value on the y axis is too small");
             Assert.IsTrue((dest.z - err) < expected.z, "the value on the z axis is too small");

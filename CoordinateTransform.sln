@@ -1,26 +1,34 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordinateTransform", "CoordinateTransform\CoordinateTransform.csproj", "{01B29D11-00E0-4B37-8C69-48B8E7815FFC}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordinateTransform", "CoordinateTransform\CoordinateTransform.csproj", "{FE2135C6-D8BE-4560-A920-B5FF5266015D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{CABB0A1B-8596-47E3-9338-E7B79056222D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{97A28F72-CE54-4AAC-B861-5CE97373C862}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0445EA43-37E7-4695-86A6-F081B003B363}"
+	ProjectSection(SolutionItems) = preProject
+		CoordinateTransform.vsmdi = CoordinateTransform.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CoordinateTransform.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{01B29D11-00E0-4B37-8C69-48B8E7815FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01B29D11-00E0-4B37-8C69-48B8E7815FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01B29D11-00E0-4B37-8C69-48B8E7815FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01B29D11-00E0-4B37-8C69-48B8E7815FFC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CABB0A1B-8596-47E3-9338-E7B79056222D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CABB0A1B-8596-47E3-9338-E7B79056222D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CABB0A1B-8596-47E3-9338-E7B79056222D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CABB0A1B-8596-47E3-9338-E7B79056222D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2135C6-D8BE-4560-A920-B5FF5266015D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2135C6-D8BE-4560-A920-B5FF5266015D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2135C6-D8BE-4560-A920-B5FF5266015D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2135C6-D8BE-4560-A920-B5FF5266015D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A28F72-CE54-4AAC-B861-5CE97373C862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A28F72-CE54-4AAC-B861-5CE97373C862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A28F72-CE54-4AAC-B861-5CE97373C862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A28F72-CE54-4AAC-B861-5CE97373C862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
